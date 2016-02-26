@@ -26,3 +26,5 @@ public class Train
     ArrayList<RailCar> trainArray = new ArrayList<RailCar>();
   }
 }
+
+//In main method, put objects of train car types in specific order
