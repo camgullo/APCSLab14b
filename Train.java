@@ -6,24 +6,25 @@ public class Train
     if(s.equals("Locomotive"))
     {
       rc = new Locomotive();
-      trainArray.add(rc);
+      railCars.add(rc);
     }
     if(s.equals("PassengerCar"))
     {
       rc = new PassengerCar();
-      trainArray.add(rc);
+      railCars.add(rc);
     }
     if(s.equals("FreightCar"))
     {
       rc = new FreightCar();
-      trainArray.add(rc);
+      railCars.add(rc);
     }
     if(s.equals("Caboose"))
     {
       rc = new Caboose();
-      trainArray.add(rc);
+      railCars.add(rc);
     }
-    ArrayList<RailCar> trainArray = new ArrayList<RailCar>();
+    ArrayList<RailCar> railCars = new ArrayList<RailCar>();
+    
   }
 }
 
