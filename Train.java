@@ -3,23 +3,26 @@ public class Train
   public void addCar(String s, Color c)
   {
     RailCar rc;
-    if(s == "Locomotive")
+    if(s.equals("Locomotive"))
     {
       rc = new Locomotive();
+      trainArray.add(rc);
     }
-    
-    if(s == "PassengerCar")
+    if(s.equals("PassengerCar"))
     {
       rc = new PassengerCar();
+      trainArray.add(rc);
     }
-    if(s == "FreightCar")
+    if(s.equals("FreightCar"))
     {
       rc = new FreightCar();
+      trainArray.add(rc);
     }
-    if(s== "Caboose")
+    if(s.equals("Caboose"))
     {
       rc = new Caboose();
+      trainArray.add(rc);
     }
-    
+    ArrayList<RailCar> trainArray = new ArrayList<RailCar>();
   }
 }
