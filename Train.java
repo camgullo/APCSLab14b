@@ -12,6 +12,14 @@ public class Train
     {
       rc = new PassengerCar();
     }
+    if(s == "FreightCar")
+    {
+      rc = new FreightCar();
+    }
+    if(s== "Caboose")
+    {
+      rc = new Caboose();
+    }
     
   }
 }
