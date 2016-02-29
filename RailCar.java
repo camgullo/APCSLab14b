@@ -11,16 +11,10 @@ import java.awt.*;
 
 public class RailCar
 {
-	private Color carColor;
-	private int xPos;
-	private int yPos;
+	protected Color carColor;
+	protected int xPos;
+	protected int yPos;
 
-	public RailCar(Color cC, int xP, int yP)
-	{
-		carColor = cC;
-		xPos = xP;
-		yPos = yP;
-	}
 
 	public void drawCar(Graphics g)
 	{
@@ -48,4 +42,3 @@ public class RailCar
       g.fillRect(xPos-25,yPos+80,25,5);
    } 
 }
-
