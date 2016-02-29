@@ -10,13 +10,8 @@ import java.awt.*;
 
 public class FreightCar extends RailCar
 {
-	private Color carColor;
-	private int xPos;
-	private int yPos;
-
 	public FreightCar(Color cC, int xPos, int yPos)
 	{
-		super(cC,xPos,yPos);
       carColor = cC;
       this.xPos = xPos;
       this.yPos = yPos;
@@ -41,4 +36,5 @@ public class FreightCar extends RailCar
       g.fillRect(xPos+80,yPos+35,5,15);
 	}
  }
+
 
