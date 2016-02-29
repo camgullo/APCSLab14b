@@ -1,4 +1,3 @@
-// Locomotive.java
 // 02-24-15 by Leon Schram
 // This is one of the student starting files
 // of the Lab14b lab assignment.
@@ -9,13 +8,8 @@ import java.awt.*;
 
 public class Locomotive extends RailCar
 {
-	private Color carColor;
-	private int xPos;
-	private int yPos;
-
 	public Locomotive(Color cC, int xPos, int yPos)
 	{
-		super(cC,xPos,yPos);
       carColor = cC;
       this.xPos = xPos;
       this.yPos = yPos;
@@ -53,4 +47,5 @@ public class Locomotive extends RailCar
 	   g.fillPolygon(funnel);
 	}
 }
+
 
