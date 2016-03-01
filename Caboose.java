@@ -6,7 +6,6 @@
 
 import java.awt.*;
 
-
 public class Caboose extends RailCar
 {
 
