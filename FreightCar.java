@@ -1,16 +1,13 @@
 // FreightCar.java
-// FreightCar.java
-// 02-24-15 by Leon Schram
-// This is one of the student starting files
-// of the Lab14b lab assignment.
-
 
 import java.awt.*;
 
 
-public class FreightCar extends RailCar
+public class FreightCar extends RailCar//This class derives from RailCar
 {
-	public FreightCar(Color cC, int xPos, int yPos)
+	public FreightCar(Color cC, int xPos, int yPos)//Constructor creates and sets position and color
+	{
+
 	{
       carColor = cC;
       this.xPos = xPos;
@@ -36,5 +33,7 @@ public class FreightCar extends RailCar
       g.fillRect(xPos+80,yPos+35,5,15);
 	}
  }
+
+
 
 
