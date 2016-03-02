@@ -1,19 +1,24 @@
 // RailCar.java
-// 02-24-15 by Leon Schram
-// This is the <RailCar> class that is the 
-// super class for other train classes.
-// This is one of the student starting files
-// of the Lab14b lab assignment.
 
 
 import java.awt.*;
 
 
-public class RailCar
-{
-	protected Color carColor;
-	protected int xPos;
-	protected int yPos;
+public class RailCar//This is the superclass from which the car types different types 
+//of cars inherit from	
+   protected Color carColor;
+	protected int xPos;//X coordinate of beginning of the car
+	protected int yPos;//Y coordinate of beginning of the car
+
+  public void setxPos(int xPos)//Set method for X coordinate
+  {
+    this.xPos = xPos;
+  }
+  
+  public int getxPos()//Get method for X coordinate
+  {
+    return xPos;
+  }
 
 
 	public void drawCar(Graphics g)
