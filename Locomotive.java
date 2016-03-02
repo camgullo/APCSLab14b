@@ -1,14 +1,13 @@
-// 02-24-15 by Leon Schram
-// This is one of the student starting files
-// of the Lab14b lab assignment.
-
+// Locomotive.java
 
 import java.awt.*;
 
 
-public class Locomotive extends RailCar
+public class Locomotive extends RailCar//This class derives from RailCar
 {
-	public Locomotive(Color cC, int xPos, int yPos)
+	public Locomotive(Color cC, int xPos, int yPos)//Constructor creates and sets position and color
+	{
+
 	{
       carColor = cC;
       this.xPos = xPos;
@@ -47,5 +46,6 @@ public class Locomotive extends RailCar
 	   g.fillPolygon(funnel);
 	}
 }
+
 
 
