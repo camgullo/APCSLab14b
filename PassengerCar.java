@@ -1,16 +1,12 @@
 // PassengerCar.java
-// 02-24-15 by Leon Schram
-// This is one of the student starting files
-// of the Lab14b lab assignment.
-
 
 import java.awt.*;
 
 
-class PassengerCar extends RailCar
+class PassengerCar extends RailCar//This class derives from RailCar
 {
 
-	public PassengerCar(Color cC, int xPos, int yPos)
+	public PassengerCar(Color cC, int xPos, int yPos)//Constructor creates and sets position and color
 	{
       carColor = cC;
       this.xPos = xPos;
@@ -44,5 +40,4 @@ class PassengerCar extends RailCar
       g.fillPolygon(roof);
    }   
 }
-	
 	
