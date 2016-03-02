@@ -1,15 +1,13 @@
 // Caboose.java
-// 02-24-15 by Leon Schram
-// This is one of the student starting files
-// of the Lab14b lab assignment.
-
-
 import java.awt.*;
 
-public class Caboose extends RailCar
+
+public class Caboose extends RailCar//This class derives from RailCar
 {
 
-	public Caboose(Color cC, int xPos, int yPos)
+	public Caboose(Color cC, int xPos, int yPos)//Constructor creates and sets position and color
+	{
+
 	{
       carColor = cC;
       this.xPos = xPos;
@@ -38,3 +36,4 @@ public class Caboose extends RailCar
 	    g.fillRect(xPos+25,yPos-30,100,5);
 	}
 }
+
